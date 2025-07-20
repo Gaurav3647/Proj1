@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+
 class ClientGUI {
     // references for GUI components & networking streams
     private JFrame frame; // Main window for GUI
@@ -11,6 +12,8 @@ class ClientGUI {
     private JTextField inputField; // Text field for user input
     private PrintStream ps; // Stream to send msgs to the client
     private BufferedReader br1; // Bufferedreader to read incoming msgs from Client
+
+    public string str= "sangvi";
 
     // Constructor to initialize the GUI components & start the server
     public ClientGUI() {
